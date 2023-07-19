@@ -163,6 +163,10 @@
               <img
                 class="functions-img"
                 src="./images/Portfolio/img-1.png"
+                srcset="
+                  ./images/Portfolio/img-1.png      1x,
+                  ./images/retina-imgs/ben-1@2x.jpg 2x
+                "
                 alt="personal cumputer"
                 width="360"
               />
@@ -171,6 +175,10 @@
               <img
                 class="functions-img"
                 src="./images/Portfolio/img-2.png"
+                srcset="
+                  ./images/Portfolio/img-2.png      1x,
+                  ./images/retina-imgs/ben-2@2x.jpg 2x
+                "
                 alt="many mobile phones"
                 width="360"
               />
@@ -179,6 +187,10 @@
               <img
                 class="functions-img"
                 src="./images/Portfolio/img-3.png"
+                srcset="
+                  ./images/Portfolio/img-3.png      1x,
+                  ./images/retina-imgs/ben-3@2x.jpg 2x
+                "
                 alt="a phone and a laptop"
                 width="360"
               />
@@ -195,6 +207,10 @@
               <img
                 class="team-img"
                 src="./images/Portfolio/Team-Card-1.png"
+                srcset="
+                  ./images/Portfolio/Team-Card-1.png 1x,
+                  ./images/retina-imgs/team-1@2x.jpg 2x
+                "
                 alt="photo of mark guerrero"
                 width="264"
               />
@@ -239,6 +255,10 @@
               <img
                 class="team-img"
                 src="./images/Portfolio/Team-Card-2.png"
+                srcset="
+                  ./images/Portfolio/Team-Card-2.png 1x,
+                  ./images/retina-imgs/team-2@2x.jpg 2x
+                "
                 alt="photos of tom ford"
                 width="264"
               />
@@ -283,6 +303,10 @@
               <img
                 class="team-img"
                 src="./images/Portfolio/Team-Card-3.png"
+                srcset="
+                  ./images/Portfolio/Team-Card-3.png 1x,
+                  ./images/retina-imgs/team-3@2x.jpg 2x
+                "
                 alt="photos of camia garcia"
                 width="264"
               />
@@ -327,6 +351,10 @@
               <img
                 class="team-img"
                 src="./images/Portfolio/Team-Card-4.png"
+                srcset="
+                  ./images/Portfolio/Team-Card-4.png 1x,
+                  ./images/retina-imgs/team-4@2x.jpg 2x
+                "
                 alt="photo of daniel wilson"
                 width="264"
               />
@@ -599,10 +627,59 @@
         </button>
 
         <ul class="mobile-menu">
-          <li><a href="" class="link">About</a></li>
-          <li><a href="" class="link">Products</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-          <li><a href="" class="link">Career</a></li>
+          <li class="mobile-menu-link link">
+            <a href="" class="mobile-menu-item link">Studio</a>
+          </li>
+          <li class="mobile-menu-link link">
+            <a href="" class="link">Portfolio</a>
+          </li>
+          <li class="mobile-menu-link link">
+            <a href="" class="link">Contacts</a>
+          </li>
+        </ul>
+        <ul class="list mobile-contacts-list">
+          <li class="mobile-contacts-item">
+            <a
+              class="link mobile-contacts-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mobile-contacts-item">
+            <a class="link bobile-contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+        <ul class="list sm-mobile-list">
+          <li class="sm-mobile-item">
+            <a href="" class="sm-mobile-link">
+              <svg class="sm-mobile-logo" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sm-mobile-item">
+            <a href="" class="sm-mobile-link">
+              <svg class="sm-mobile-logo" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sm-mobile-item">
+            <a href="" class="sm-mobile-link">
+              <svg class="sm-mobile-logo" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sm-mobile-item">
+            <a href="" class="sm-mobile-link">
+              <svg class="sm-mobile-logo" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -612,7 +689,7 @@
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"
       ></script>
-      <script defer src="js/mobile-menu.js"></script>
+      <script defer src="./js/mobile-menu.js"></script>
 
       <script src="./js/modal.js"></script>
     </div>
