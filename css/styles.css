@@ -528,6 +528,8 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
    .team-container {
     max-width: 768px;
+     margin: 0 auto;
+    padding: 0 15px;
   }
 }
   .section-team {
@@ -553,7 +555,7 @@ body {
     column-gap: 24px;
     
 }
-
+  }
   .team-card {
     background-color: var(--main-background-light);
     border-radius: 0px 0px 4px 4px;
