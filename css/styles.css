@@ -556,6 +556,13 @@ body {
     
 }
   }
+  @media only screen and (min-width: 768px) and (max-width: 1157px) {
+     .team-list {
+      max-width: 552px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
   .team-card {
     background-color: var(--main-background-light);
     border-radius: 0px 0px 4px 4px;
@@ -677,11 +684,16 @@ margin-bottom: 8px;
   }
 @media only screen and (min-width: 768px) {
    .customers-list {
-  gap: 24p;
+  gap: 72px 24p;
   }
 }
 
-
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+   .customers-list {
+    max-width: 552px;
+    margin: 0 auto;
+  }
+}
   .customers-item {
     display: flex;
     flex-basis: calc((100% - 16px) / 2);
