@@ -109,7 +109,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+  
   }
 
   .header {
@@ -117,8 +117,15 @@ body {
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  }
 
+  }
+@media only screen and (max-width: 767px) {
+   .header{ 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+  }
+}
   .header-nav {
     display: block;
     font-weight: 500;
@@ -186,12 +193,15 @@ body {
 
   .header-nav-link {
     display: block;
-    color: #404bbf;
+    color: var(--hero-background);
     padding-bottom: 24px;
+    padding-top: 24px;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+.active {
+  color: var(--logo-bright);
+}
   .header-nav-link:hover,
   .header-nav-link:focus,
   .header-nav-link:active {
@@ -513,7 +523,7 @@ body {
   .section-team {
     text-align: center;
     background-color: #f4f4fd;
-    padding-bottom:  96px;
+    padding: 96px 0;
   }
 
 @media only screen and (min-width: 1158px) {
@@ -552,11 +562,8 @@ body {
     margin-bottom: 0;
   } 
 }
-@media only screen and (min-width: 768px) {
-  .team-card {
-    flex-basis: calc((100% - 24px) / 2);
-  } 
-}
+
+
 @media only screen and (min-width: 768px) {
    .team-card {
     flex-basis: calc((100% - 24px) / 2);
@@ -639,11 +646,11 @@ margin-bottom: 8px;
 
   .section-customers {
     text-align: center;
-    padding-bottom: 96px;
+    padding: 96px 0;
   }
 @media only screen and (min-width: 1158pxpx) {
    .section-customers {
-     padding-bottom: 120px;
+     padding: 120px 0;
     
   }
 }
